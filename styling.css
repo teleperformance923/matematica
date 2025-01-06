@@ -1,10 +1,22 @@
-
-
-#container {
-    width: 1050px;
-/*   border: 1px solid grey; */
-    margin 0 auto;
+/* Center the website horizontally and vertically */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f5f5f5; /* Optional background color */
 }
+
+/* Ensure the container is responsive */
+#container {
+    width: 90%; /* Responsive width */
+    max-width: 1050px;
+    margin: 0 auto;
+}
+
+
+
 
 #brand{
     float: left;
